@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-readerzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-readerzz.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3B3454BC88B98F777E0A1FEB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		436E662AFA684F289D220CF3 /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C78044F8A20147349EDDA49B /* Lora-Bold.ttf */; };
+		5854C93D923C49BBBB396719 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D534026A2789426F9E2B7DE3 /* Lora-Regular.ttf */; };
+		6995F0582D6F0A5100B1D1E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6995F0572D6F0A5100B1D1E8 /* Ionicons.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81FDD5DB67C34DF294FCAA95 /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD38C78B62F46AFB5EADD34 /* Lora-SemiBold.ttf */; };
+		B39DB9CF6B4B4F65A13F84E7 /* Lora-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C764BD97FA7E4AF690887AA6 /* Lora-MediumItalic.ttf */; };
+		D34C1007DAC64C7D922911BF /* Lora-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2D03009984F27AE1A1CA9 /* Lora-SemiBoldItalic.ttf */; };
+		E7C7D9EEA03941E1B563D916 /* Lora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECDE37A70C424887B428C0D4 /* Lora-Medium.ttf */; };
+		EE355488926A45A38175D01A /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 145FDE3604B64C7C87E9C1DB /* Lora-Italic.ttf */; };
+		F2305EC5A7484A07AE116EDD /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C73F24CABE21433C902BADC4 /* Lora-BoldItalic.ttf */; };
+		F34DA61DEE2961ED18EF8885 /* libPods-readerzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E24A31CB4E9D240833FDE06 /* libPods-readerzz.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +28,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = readerzz/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = readerzz/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = readerzz/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-readerzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readerzz.debug.xcconfig"; path = "Target Support Files/Pods-readerzz/Pods-readerzz.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-readerzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readerzz.release.xcconfig"; path = "Target Support Files/Pods-readerzz/Pods-readerzz.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-readerzz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-readerzz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		145FDE3604B64C7C87E9C1DB /* Lora-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Italic.ttf"; path = "../src/assets/fonts/Lora-Italic.ttf"; sourceTree = "<group>"; };
+		3AB2D03009984F27AE1A1CA9 /* Lora-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Lora-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6995F0572D6F0A5100B1D1E8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		6D92D7C94FFD88E1F6BE6CCC /* Pods-readerzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readerzz.release.xcconfig"; path = "Target Support Files/Pods-readerzz/Pods-readerzz.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = readerzz/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = readerzz/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD38C78B62F46AFB5EADD34 /* Lora-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-SemiBold.ttf"; path = "../src/assets/fonts/Lora-SemiBold.ttf"; sourceTree = "<group>"; };
+		8E24A31CB4E9D240833FDE06 /* libPods-readerzz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-readerzz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9228C4E59B41BD0FEFED9AB /* Pods-readerzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-readerzz.debug.xcconfig"; path = "Target Support Files/Pods-readerzz/Pods-readerzz.debug.xcconfig"; sourceTree = "<group>"; };
+		C73F24CABE21433C902BADC4 /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-BoldItalic.ttf"; path = "../src/assets/fonts/Lora-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C764BD97FA7E4AF690887AA6 /* Lora-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-MediumItalic.ttf"; path = "../src/assets/fonts/Lora-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C78044F8A20147349EDDA49B /* Lora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Bold.ttf"; path = "../src/assets/fonts/Lora-Bold.ttf"; sourceTree = "<group>"; };
+		D534026A2789426F9E2B7DE3 /* Lora-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Regular.ttf"; path = "../src/assets/fonts/Lora-Regular.ttf"; sourceTree = "<group>"; };
+		ECDE37A70C424887B428C0D4 /* Lora-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lora-Medium.ttf"; path = "../src/assets/fonts/Lora-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-readerzz.a in Frameworks */,
+				F34DA61DEE2961ED18EF8885 /* libPods-readerzz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-readerzz.a */,
+				8E24A31CB4E9D240833FDE06 /* libPods-readerzz.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,11 +88,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6995F0572D6F0A5100B1D1E8 /* Ionicons.ttf */,
 				13B07FAE1A68108700A75B9A /* readerzz */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				AACEC71748674439B0484C56 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -89,11 +109,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AACEC71748674439B0484C56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C78044F8A20147349EDDA49B /* Lora-Bold.ttf */,
+				C73F24CABE21433C902BADC4 /* Lora-BoldItalic.ttf */,
+				145FDE3604B64C7C87E9C1DB /* Lora-Italic.ttf */,
+				ECDE37A70C424887B428C0D4 /* Lora-Medium.ttf */,
+				C764BD97FA7E4AF690887AA6 /* Lora-MediumItalic.ttf */,
+				D534026A2789426F9E2B7DE3 /* Lora-Regular.ttf */,
+				8CD38C78B62F46AFB5EADD34 /* Lora-SemiBold.ttf */,
+				3AB2D03009984F27AE1A1CA9 /* Lora-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-readerzz.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-readerzz.release.xcconfig */,
+				B9228C4E59B41BD0FEFED9AB /* Pods-readerzz.debug.xcconfig */,
+				6D92D7C94FFD88E1F6BE6CCC /* Pods-readerzz.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,13 +140,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "readerzz" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				4CF335CD680733F246263A64 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				9ACD5FA61E4E1B463751ABC0 /* [CP] Embed Pods Frameworks */,
+				93BB22EBDBE2C16363CCAC1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +193,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6995F0582D6F0A5100B1D1E8 /* Ionicons.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3B3454BC88B98F777E0A1FEB /* PrivacyInfo.xcprivacy in Resources */,
+				436E662AFA684F289D220CF3 /* Lora-Bold.ttf in Resources */,
+				F2305EC5A7484A07AE116EDD /* Lora-BoldItalic.ttf in Resources */,
+				EE355488926A45A38175D01A /* Lora-Italic.ttf in Resources */,
+				E7C7D9EEA03941E1B563D916 /* Lora-Medium.ttf in Resources */,
+				B39DB9CF6B4B4F65A13F84E7 /* Lora-MediumItalic.ttf in Resources */,
+				5854C93D923C49BBBB396719 /* Lora-Regular.ttf in Resources */,
+				81FDD5DB67C34DF294FCAA95 /* Lora-SemiBold.ttf in Resources */,
+				D34C1007DAC64C7D922911BF /* Lora-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,24 +227,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		4CF335CD680733F246263A64 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +249,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		93BB22EBDBE2C16363CCAC1A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,6 +264,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACD5FA61E4E1B463751ABC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-readerzz/Pods-readerzz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -255,7 +299,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-readerzz.debug.xcconfig */;
+			baseConfigurationReference = B9228C4E59B41BD0FEFED9AB /* Pods-readerzz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +327,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-readerzz.release.xcconfig */;
+			baseConfigurationReference = 6D92D7C94FFD88E1F6BE6CCC /* Pods-readerzz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
